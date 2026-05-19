@@ -1,8 +1,7 @@
-name: phabox-env
+name: phage-flores
 channels:
   - conda-forge
   - bioconda
-  - defaults
 
 dependencies:
   - python=3.10
