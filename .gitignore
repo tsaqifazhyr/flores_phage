@@ -1,0 +1,58 @@
+# =========================
+# RAW & PROCESSED DATA
+# =========================
+
+data/
+results/
+logs/
+
+# FASTQ / FASTA
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fasta
+*.fna
+
+# Assembly outputs
+*.contigs.fa
+
+# =========================
+# NOTEBOOK CACHE
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# PYTHON
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# CONDA / ENV
+# =========================
+
+.env
+.venv
+conda-meta/
+
+# Optional
+*.conda
+*.tar.bz2
+
+# =========================
+# OS FILES
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# VSCODE / CODESPACES
+# =========================
+
+.vscode/

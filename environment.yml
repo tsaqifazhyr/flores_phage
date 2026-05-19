@@ -1,0 +1,33 @@
+name: phabox-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab
+  - notebook
+
+  # Download
+  - wget
+  - curl
+
+  # QC
+  - fastqc
+  - multiqc
+
+  # Trimming/filtering
+  - fastp
+
+  # Assembly
+  - megahit
+
+  # Sequence utilities
+  - seqkit
+
+  # General
+  - pandas
+  - matplotlib
+  - biopython
